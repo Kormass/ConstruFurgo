@@ -171,10 +171,6 @@ Se crea el objeto factura donde se tomara toda la informacion de las opportunida
 
   - **Permisos específicos:** Habilitación de los campos "Nombre de la campaña", "Estado de la campaña", "Tipo de campaña", "Fecha de inicio", "Fecha de fin" y "Miembros de la campaña"
 
-    
-
-* #### Informes y Paneles (Reports & Dashboards):
-
   - **Acceso**: Lectura y modificación.
 
   ![](https://media.discordapp.net/attachments/1218023015510577187/1352319121295151196/image.png?ex=67dd94d3&is=67dc4353&hm=2a30636a486866676662a060c41d6f1c82102d71479d01aab325902f4ddf283d&=&format=webp&quality=lossless&width=921&height=432)
@@ -182,6 +178,7 @@ Se crea el objeto factura donde se tomara toda la informacion de las opportunida
   
 
   ![Image](https://media.discordapp.net/attachments/1218023015510577187/1352317777850925097/image.png?ex=67dd9393&is=67dc4213&hm=ed4f475ba472de81bb5f086a92fb870ffecb2cf975e5967f6d34e1dbc97b681c&=&format=webp&quality=lossless&width=980&height=432)
+
 
 ### **Perfil: Production Manager**
 
@@ -331,7 +328,10 @@ Se crea el objeto factura donde se tomara toda la informacion de las opportunida
 ![](https://media.discordapp.net/attachments/1218023015510577187/1352338106379927613/image.png?ex=67dda681&is=67dc5501&hm=bd41d45f902c40d4090ce03246e69dde3948924890199d7dc3c41f904275e356&=&format=webp&quality=lossless&width=841&height=432)
 
 - Se toma un accion y se busca la opcion new opportunity, seguido mappeamos los datos que queremos que queden dentro de el nuevo opportunity.
-  ![image-20250320125104935](C:\Users\Jefferson Jair\AppData\Roaming\Typora\typora-user-images\image-20250320125104935.png)
+
+  ![Image](https://media.discordapp.net/attachments/1218023015510577187/1352565786794786836/image-20250320125104935.png?ex=67de7a8d&is=67dd290d&hm=1c211fde021c1f2602a6cdc7460f97a8102fbd99911fe056715303c88c055538&=&format=webp&quality=lossless&width=982&height=432)
+
+  
 
 - Ahora tenemos una desicion donde se podra modificar el envio de correo a los clientes por si se desea realizar algun cambio futuro sobre el envio hacia los clientes, si desean que se envie el correo o no en este caso seguimos el flujo de trabajo y lo dejamos con la condicion de que tuviera 3 interacciones
 
@@ -397,7 +397,27 @@ Debido a que acabamos de generar la factura aun se encuentra en estado de pendie
 
 
 
-## DASHBOARDS
+## REPORTES
+
+- En la aplicacion principal se crean 4 carpetas que nos serviran para el uso compartido con los perfiles que vayamos a utilizar, de esta manera solo podran ver los reportes los usuarios que nosotros queramos y no podran ver los informes de otras ramas.
+
+### Reportes de ventas
+
+- Para los reportes de ventas tenemos los siguientes 4 reportes, los cuales nos daran toda la informacion acerca de como van las ventas, cuales fueron las oportunidades que ganamos y cuantas oportunidades hemos perdido hasta el momento, esto para realizar la comparativa entre ellas y verificar en que podemos seguir mejorando, para esto nos vamos a fijar principalmente en las empresas, que empresa tiene mayor indice de ganadas (se desactivo la informacion como subtotal y grantotal):
+
+![Image](https://media.discordapp.net/attachments/1218023015510577187/1352568753493250059/image.png?ex=67de7d50&is=67dd2bd0&hm=5c5f872d8814b37ec1745cbab3043299b3460d630b135aec159a288dc78f7166&=&format=webp&quality=lossless&width=916&height=432)
+
+- Y cual tiene mayor indice de perdidas:
+
+![Image](https://media.discordapp.net/attachments/1218023015510577187/1352568070366822440/image.png?ex=67de7cad&is=67dd2b2d&hm=533c5e4de1ce51e4a64284f02f5db7f2c14204999e411bcd8f31eeec5208e4e0&=&format=webp&quality=lossless&width=1245&height=432)
+
+- Tambien hemos creado el reporte del historial de ventas donde verificaremos todas las facturas con el nombre de la empresa a la cual se han realizado dichas facturas, lo que queremos tomar con este dato es la fiabilidad de cada empresa y seguir el curso de ventas:
+
+![image-20250321040813571](C:\Users\Jefferson Jair\AppData\Roaming\Typora\typora-user-images\image-20250321040813571.png)
+
+Por ultimo el reporte de importe proyectado y alcanzado; Este reporte constituye una herramienta esencial para el área de ventas, ya que proporciona una visión clara del desempeño en relación con los objetivos establecidos. Al comparar el importe de ventas proyectado con el importe real alcanzado, se facilita el seguimiento del progreso y la identificación de áreas de mejora.
+
+![Image](https://media.discordapp.net/attachments/1218023015510577187/1352571404272533614/image.png?ex=67de7fc8&is=67dd2e48&hm=7a728589aeca415f6c77921d6ef7a04fea94f636004038f5e0d800eea07a8e65&=&format=webp&quality=lossless&width=1113&height=432)
 
 
 
@@ -447,36 +467,44 @@ Debido a que acabamos de generar la factura aun se encuentra en estado de pendie
 
 - Se ajusta para uqe no pueda cambiar las tabs y se ajustan los nav de soporte:
 
-  ![image-20250320153409353](/home/camper/.config/Typora/typora-user-images/image-20250320153409353.png)
+  ![Image](https://media.discordapp.net/attachments/1218023015510577187/1352573215825985556/image.png?ex=67de8178&is=67dd2ff8&hm=f7cdd9a675dbb340181b03d92741bc45075c1f6f4b22bc9b72b1e48924a5f2e4&=&format=webp&quality=lossless&width=883&height=340)
 
 
 
+## CONCLUSIONES
 
+### **Implementación Exitosa de Salesforce:**
 
+- Se ha logrado configurar y personalizar Salesforce para reflejar la estructura y los procesos de negocio de ConstruFurgo.
+- Se han creado objetos personalizados, flujos de trabajo automatizados y reportes para optimizar la gestión de ventas, leads, oportunidades y facturación.
 
+### **Mejora en la Gestión de Ventas:**
 
+- Se han implementado flujos para la conversión de leads a oportunidades, automatizando el seguimiento y la interacción con clientes potenciales.
+- Se han creado reportes de ventas que proporcionan información valiosa sobre el desempeño, incluyendo oportunidades ganadas y perdidas, y el historial de ventas por empresa.
+- Se ha implementado el reporte de importe proyectado vs alcanzado lo cual es una herramienta valiosa para el area de ventas.
 
+### **Automatización de Procesos Clave:**
 
+- Se han automatizado las alertas de nuevos leads y la creación de facturas, mejorando la eficiencia y la respuesta a los clientes.
+- Se ha automatizado la asignación de facturas a estados pendientes o pagadas, facilitando la gestión financiera.
 
+### **Aplicaciones Personalizadas para Diferentes Roles:**
 
+- Se han creado aplicaciones personalizadas para el CEO, el equipo de ventas y el equipo de soporte técnico, facilitando el acceso a la información relevante para cada rol.
 
+### **Mejora en la Seguridad y el Control de Acceso:**
 
+- Se han configurado perfiles y permisos para asegurar que los usuarios tengan acceso solo a la información necesaria para sus roles.
+- Se han creado permission sets para aumentar la seguridad de los datos.
+- Se han creado reportes de loggins fallidos, para mejorar la seguridad de la información.
+- Se ha configurado un schedule para el envio de la data de manera automatica.
+- Se ha aumentado la seguridad en campos sensibles de la información de accounts.
 
+### **Optimización de la Gestión de Leads:**
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- Se han implementado validaciones de datos para asegurar la calidad de la información de los leads.
+- Se ha automatizado el aumento de interacciones de los leads, para tener un mejor control del seguimiento.
 
 
 
