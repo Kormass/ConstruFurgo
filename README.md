@@ -413,7 +413,8 @@ Debido a que acabamos de generar la factura aun se encuentra en estado de pendie
 
 - Tambien hemos creado el reporte del historial de ventas donde verificaremos todas las facturas con el nombre de la empresa a la cual se han realizado dichas facturas, lo que queremos tomar con este dato es la fiabilidad de cada empresa y seguir el curso de ventas:
 
-![image-20250321040813571](C:\Users\Jefferson Jair\AppData\Roaming\Typora\typora-user-images\image-20250321040813571.png)
+![image](https://github.com/user-attachments/assets/49a0ff96-8ce0-4bbd-8e4c-6300d7b9b125)
+
 
 Por ultimo el reporte de importe proyectado y alcanzado; Este reporte constituye una herramienta esencial para el área de ventas, ya que proporciona una visión clara del desempeño en relación con los objetivos establecidos. Al comparar el importe de ventas proyectado con el importe real alcanzado, se facilita el seguimiento del progreso y la identificación de áreas de mejora.
 
